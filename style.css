@@ -11,7 +11,7 @@ body {
 .secondDiv {
   display: flex;
   flex-direction: row;
-  position: 80px;
+  height: 80px;
 }
 
 .orange {
@@ -37,10 +37,11 @@ body {
 .thirdDiv {
   background-color: black;
   height: 500px;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   display: flex;
   align-items: center;
   column-gap: 36%;
+  position: relative;
 }
 .golden {
   background-color: rgb(128, 104, 0);
@@ -49,7 +50,7 @@ body {
   width: 120px;
 }
 .violet {
-  background-color: violet;
+  background-color: #ee82ee;
   height: 100%;
   width: 12.5%;
   /* align-self: flex-start; */

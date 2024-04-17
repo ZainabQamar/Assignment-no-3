@@ -37,10 +37,10 @@ body {
 .thirdDiv {
   background-color: black;
   height: 500px;
-  /* justify-content: space-evenly; */
+  justify-content: space-between;
   display: flex;
   align-items: center;
-  column-gap: 36%;
+  /* column-gap: 36%; */
   position: relative;
 }
 .golden {
